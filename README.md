@@ -1,8 +1,7 @@
 # ReactJS 배우기
 
 ## 준비
-컴퓨터에 Node 6 이상으로 설치
-
+#### 컴퓨터에 Node 6 이상으로 설치
 
 create-react-app을 전역설치 한다.
 ```shell
@@ -18,3 +17,13 @@ cd my-app
 npm start
 
 ```
+
+## JSX 도입부
+
+#### JSX 기본 단위를 JSX 엘리먼트라 부른다.
+
+```jsx
+<h1>Hello world</h1>
+```
+
+JSX 엘리먼트는 정확히 HTML과 같아보인다.
