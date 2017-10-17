@@ -8,7 +8,7 @@
 npm install -g create-react-app
 ```
 
-- 설치할 위치로 이동하고 명령어를 입력한다. (간혹 postinstall 에러가 발생함으로 설치 명령에 "sudo"를 기입한다. )
+- 설치할 위치로 이동하고 명령어를 입력한다. (간혹 postinstall 에러가 발생함으로 설치 명령에 `sudo`를 기입한다. )
 
 ```shell
 sudo create-react-app my-app
@@ -51,3 +51,25 @@ JSX 엘리먼트는 HTML 엘리먼트와 같이 속성을 가지고 따옴표""�
 ```jsx
 my-attribute-name = "my-attribute-value"
 ```
+
+ JSX 엘리먼트 안의 속성 예제
+
+```jsx
+<a href="http://www.example.com">Welcome to the Web</a>;
+
+const title = <h1 id="title">Introduction to React.js: Part I</h1>;
+```
+
+하나의 JSX 엘리먼트는 HTML관 같이 여러 속성을 가질 수 있다.
+
+```jsx
+const panda = <img src="images/panda.jpg" alt="panda" width="500px" height="500px" />;
+```
+
+### 연습문제 JSX 엘리먼트 만들기
+- [ ] 상수 `p1`을 선언, =  jsx  `<p></p>` 엘리먼트 작성, `<p></p>`사이에 `foo` 쓰기
+- [ ] 상수 `p2`을 선언, =  jsx  `<p></p>` 엘리먼트 작성, `<p></p>`사이에 `foo` 쓰기
+- [ ] `p1`의  엘리먼트 `<p></p>` 에  attribute `"large"` 기입
+- [ ] `p2`의  엘리먼트 `<p></p>` 에  attribute `"small"` 기입
+
+
