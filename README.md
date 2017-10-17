@@ -1,9 +1,9 @@
 # ReactJS 배우기
 
 ## 준비
-### 컴퓨터에 Node 6 이상으로 설치[nodejs](https://nodejs.org).
+- 컴퓨터에 Node 6 이상으로 설치. [nodejs](https://nodejs.org)
 
-- create-react-app을 전역설치 한다.[Create React App](https://github.com/facebookincubator/create-react-app).
+- create-react-app을 전역설치 한다. [Create React App](https://github.com/facebookincubator/create-react-app)
 ```shell
 npm install -g create-react-app
 ```
@@ -18,7 +18,7 @@ npm start
 
 ```
 
-## [잠깐] JSX 도입부
+## [서론] JSX 도입부
 
 ### JSX 기본 단위를 JSX 엘리먼트라 부른다.
 
