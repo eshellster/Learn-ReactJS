@@ -1,5 +1,5 @@
 # ReactJS 배우기
-
+[codecademy.com  Learn ReactJS](www.codecademy.com)
 ## 준비
 - 컴퓨터에 Node 6 이상으로 설치. [nodejs](https://nodejs.org)
 
@@ -47,3 +47,7 @@ const myTeam = {
 };
 ```
 ### JSX 안의 속성(Attributes)
+JSX 엘리먼트는 HTML 엘리먼트와 같이 속성을 가지고 따옴표""로 감싼다.
+```jsx
+my-attribute-name = "my-attribute-value"
+```
