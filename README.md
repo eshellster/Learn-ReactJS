@@ -66,10 +66,14 @@ const title = <h1 id="title">Introduction to React.js: Part I</h1>;
 const panda = <img src="images/panda.jpg" alt="panda" width="500px" height="500px" />;
 ```
 
-### 연습문제 JSX 엘리먼트 만들기
+### 연습문제 JSX 엘리먼트 작성
 - [ ] 상수 `p1`을 선언, =  jsx  `<p></p>` 엘리먼트 작성, `<p></p>`사이에 `foo` 쓰기
 - [ ] 상수 `p2`을 선언, =  jsx  `<p></p>` 엘리먼트 작성, `<p></p>`사이에 `foo` 쓰기
 - [ ] `p1`의  엘리먼트 `<p></p>` 에  attribute `"large"` 기입
 - [ ] `p2`의  엘리먼트 `<p></p>` 에  attribute `"small"` 기입
 
-
+#### 연습문제 JSX 엘리먼트 코드
+```jsx
+const p1 = <p id="large">foo</p>
+const p2 = <p id="small">bar</p>
+```
